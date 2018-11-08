@@ -1,3 +1,2 @@
 # Project-Mondrian
-This project I created is based on the works of Piet Mondrian.
-It was made on Processing, a Java-Based platform.
+In order to access the application, you must download either the 32-bit or 64-bit file.
