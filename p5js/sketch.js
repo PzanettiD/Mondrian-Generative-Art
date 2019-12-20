@@ -32,24 +32,23 @@ function draw()
 	//1st Quadrant
 	fill(255, 0, 0);
 	rect(x1, y, -x - x1, -y1 - y);
-	
-
+	circle((-x - x1)/2 + x1, (-y1 - y)/2 + y, r_1);
 
 	//2nd Quadrant
 	fill(0, 255, 0);
 	rect(x1, y, x - x1, -y1 - y);
-
+	circle((x - x1)/2 + x1, (-y1 - y)/2 + y, r_1);
+	
 	//3rd Quadrant
 	fill(0, 0, 255);
 	rect(x1, y, -x - x1, y1 - y)
+	circle((-x - x1)/2 + x1, (y1 - y)/2 + y, r_1);
 
 	//4th Quadrant
 	fill(255, 255, 0);
 	rect(x1, y, x - x1, y1 - y)
+	circle((x - x1)/2 + x1, (y1 - y)/2 + y, r_1);
 
-
-	circle((-x - x1)/2, (-y1 - y)/2, r_1);
-	console.log(x, x1, -x-x1, (-x-x1)/2)
 	if (mouseIsPressed)
 	{
 		x1 = random(-width/2 + 6, width/2 - 6);
