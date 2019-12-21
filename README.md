@@ -1,6 +1,7 @@
 # Project-Mondrian
 ## Inspiration
-This project was in honor of the works of [Piet Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian), a dutch painter who pioneered in the field of abstract art.
+This project was in honor of the works of [Piet Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian), a dutch painter who pioneered in the field of abstract art. In this "web-app" I was aiming at mimicking his art, though with some amount of randomization.
+
 ## The application
 The application will render 4 quadrants, with random generated colors and ellipses. After the click of the user, new colors are randomly generated. Here is how it works in *p5.js*, with some bolder color choices than the original (on the right):
 
